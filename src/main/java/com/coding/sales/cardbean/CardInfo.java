@@ -2,11 +2,11 @@ package com.coding.sales.cardbean;
 
 public class CardInfo {
 
-    public CardTypes types;
-    public int minPoint;
-    public int maxPoint;
-    public int currentPoint;
-    public String cardId;
+    private CardTypes types;
+    private int minPoint;
+    private int maxPoint;
+    private int currentPoint;
+    private String cardId;
 
     public CardTypes getTypes() {
         return types;
