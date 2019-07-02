@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d872f2fb-45b3-4f3b-b533-8eab089fff83" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/sales/OrderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/sales/OrderApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/sales/bean/BaseNoblemetal.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/sales/bean/MetalTypeOne.java" beforeDir="false" />
@@ -13,6 +14,12 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/coding/sales/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coding/sales/FileUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/coding/sales/OrderApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coding/sales/OrderApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/coding/sales/output/OrderRepresentation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coding/sales/output/OrderRepresentation.class" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/precious_metal_sales_system.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/sales/OrderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/sales/OrderApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/sales/bean/MetalTypeOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/sales/bean/MetalTypeOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/sales/discount/DiscountRoll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/sales/discount/DiscountRoll.java" afterDir="false" />
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,6 +30,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/OrderApp.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -31,11 +39,19 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/OrderApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1457">
+              <caret line="126" column="22" lean-forward="true" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/test/resources/sample_result.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -45,6 +61,63 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/discount/FullReduction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="206">
+                <caret line="77" column="36" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/discount/DiscountRoll.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/cardbean/CardInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/bean/BaseNoblemetal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/bean/MetalTypeOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
             </state>
           </provider>
         </entry>
@@ -52,8 +125,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/input/OrderItemCommand.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="210">
               <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+=======
+            <state relative-caret-position="270">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
               <folding>
                 <element signature="e#304#305#0" expanded="true" />
                 <element signature="e#334#335#0" expanded="true" />
@@ -65,6 +143,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/discount/FullReduction.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -81,39 +160,61 @@
                 <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
               </first_editor>
               <second_editor />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/userben/UserBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/output/OrderRepresentation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
               <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/cardbean/CardTypes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+<<<<<<< HEAD
   <component name="FindInProjectRecents">
     <findStrings>
       <find>calculateFullReductionPrice</find>
       <find>metalType</find>
     </findStrings>
   </component>
+=======
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/com/coding/sales/discount/DiscountRoll.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coding/sales/bean/MetalTypeOne.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/com/coding/sales/bean/MetalTypeOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coding/sales/discount/DiscountRoll.java" />
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
         <option value="$PROJECT_DIR$/src/main/java/com/coding/sales/OrderApp.java" />
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
@@ -127,6 +228,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="18" />
+=======
+  <component name="ProjectFrameBounds">
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
     <option name="y" value="23" />
     <option name="width" value="1260" />
     <option name="height" value="685" />
@@ -159,22 +263,82 @@
               <item name="precious_metal_sales_system" type="b2602c69:ProjectViewProjectNode" />
               <item name="kata-precious_metal_sales_system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="test" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
             </path>
             <path>
               <item name="precious_metal_sales_system" type="b2602c69:ProjectViewProjectNode" />
               <item name="kata-precious_metal_sales_system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sales" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
             </path>
             <path>
               <item name="precious_metal_sales_system" type="b2602c69:ProjectViewProjectNode" />
               <item name="kata-precious_metal_sales_system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sales" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sales" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="precious_metal_sales_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kata-precious_metal_sales_system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sales" type="462c0819:PsiDirectoryNode" />
+              <item name="cardbean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="precious_metal_sales_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kata-precious_metal_sales_system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sales" type="462c0819:PsiDirectoryNode" />
+              <item name="discount" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="precious_metal_sales_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kata-precious_metal_sales_system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sales" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="precious_metal_sales_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kata-precious_metal_sales_system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sales" type="462c0819:PsiDirectoryNode" />
+              <item name="userben" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="precious_metal_sales_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kata-precious_metal_sales_system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
             </path>
             <path>
               <item name="precious_metal_sales_system" type="b2602c69:ProjectViewProjectNode" />
@@ -194,7 +358,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562074528872" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562061534724" />
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -213,6 +381,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager">
     <configuration name="OrderAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="precious_metal_sales_system" />
@@ -234,6 +403,8 @@
       </list>
     </recent_temporary>
   </component>
+=======
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -244,21 +415,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562058258065</updated>
+<<<<<<< HEAD
       <workItem from="1562058259569" duration="9031000" />
+=======
+      <workItem from="1562058259569" duration="3000000" />
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="9031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="18" y="23" width="1260" height="685" extended-state="0" />
+=======
+    <option name="totallyTimeSpent" value="3000000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1260" height="685" extended-state="0" />
+    <editor active="true" />
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2044335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
@@ -270,13 +454,29 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5463744" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17405583" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Theme Preview" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Maven" weight="0.32922825" />
+=======
+      <window_info anchor="right" id="Maven" />
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Database" />
@@ -296,6 +496,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/userben/UserBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -342,6 +543,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/input/OrderCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
           <folding>
             <element signature="e#1351#1352#0" expanded="true" />
             <element signature="e#1382#1383#0" expanded="true" />
@@ -353,8 +560,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/input/OrderItemCommand.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="210">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+=======
+        <state relative-caret-position="270">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
           <folding>
             <element signature="e#304#305#0" expanded="true" />
             <element signature="e#334#335#0" expanded="true" />
@@ -364,6 +576,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/bean/MetalTypeOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -429,25 +642,100 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-217">
           <caret line="90" column="9" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/userben/UserBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/sample_result.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/sample_command.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/bean/BaseNoblemetal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/cardbean/CardInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/cardbean/CardTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/bean/MetalTypeOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/test/resources/sample_result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/discount/DiscountRoll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
+<<<<<<< HEAD
           <first_editor relative-caret-position="58">
             <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+=======
+          <first_editor relative-caret-position="206">
+            <caret line="77" column="36" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/discount/FullReduction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/sales/OrderApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1457">
+          <caret line="126" column="22" lean-forward="true" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 1c6af5ead931b661a227ddf8bd7b05ee20b6fe41
   </component>
   <component name="masterDetails">
     <states>
