@@ -3,6 +3,7 @@ package com.coding.sales.metalbean;
 import com.coding.sales.discount.FullReduction;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 public class Four implements IPrice {
     private static final String produceName = "水晶之恋";
@@ -12,7 +13,7 @@ public class Four implements IPrice {
     private static final FullReduction[] fullReductions = new FullReduction[]{FullReduction.THIRD_HALF_PRICE, FullReduction.FULL_THREE_GIVE_1};
 
     @Override
-    public BigDecimal getDiscountPrice(BigDecimal amount) {
+    public BigDecimal getDiscountPrice(BigDecimal amount, List<String> discounts) {
         BigDecimal discountPrice = BigDecimal.valueOf(0);
         if(amount.compareTo(new BigDecimal(3)) < 0) {
             discountPrice = new BigDecimal(0);

@@ -5,7 +5,9 @@ import com.coding.sales.cardbean.CardInfo;
 import com.coding.sales.cardbean.CardTypes;
 import com.coding.sales.userben.UserBean;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Contants {
@@ -91,4 +93,6 @@ public class Contants {
         put("002003", seven);
 
     }};
+
+    public static Map<String, String> discounts = new HashMap<String, String>();
 }

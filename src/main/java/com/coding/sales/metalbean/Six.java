@@ -1,9 +1,11 @@
 package com.coding.sales.metalbean;
 
+import com.coding.sales.contants.Contants;
 import com.coding.sales.discount.DiscountRoll;
 import com.coding.sales.discount.FullReduction;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 public class Six implements IPrice {
 
@@ -15,7 +17,7 @@ public class Six implements IPrice {
     private static final DiscountRoll discountRoll = DiscountRoll.FIVE_OFF;
 
     @Override
-    public BigDecimal getDiscountPrice(BigDecimal amount) {
+    public BigDecimal getDiscountPrice(BigDecimal amount, List<String> discounts) {
         BigDecimal discountPrice = new BigDecimal(0);
         if(amount.compareTo(new BigDecimal(3)) < 0) {
             discountPrice = new BigDecimal(0);
@@ -25,7 +27,11 @@ public class Six implements IPrice {
             discountPrice = price;
         }
 
-        BigDecimal discountPrice1 = getTotalPrice(amount).multiply(new BigDecimal(0.05));
+        BigDecimal discountPrice1 = new BigDecimal(0);
+        if(discounts.contains(discountRoll.getMessage())) {
+            Contants.discounts.put(discountRoll.getMessage(), discountRoll.getMessage());
+            discountPrice1 = getTotalPrice(amount).multiply(new BigDecimal(0.05));
+        }
 
         if(discountPrice.compareTo(discountPrice1) >= 0) {
             return discountPrice;

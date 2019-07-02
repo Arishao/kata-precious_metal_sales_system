@@ -1,6 +1,7 @@
 package com.coding.sales.metalbean;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 public class One implements IPrice{
 
@@ -10,7 +11,7 @@ public class One implements IPrice{
     private static final BigDecimal price = new BigDecimal(998.00);
 
     @Override
-    public BigDecimal getDiscountPrice(BigDecimal amount) {
+    public BigDecimal getDiscountPrice(BigDecimal amount, List<String> discounts) {
         return new BigDecimal(0);
     }
 

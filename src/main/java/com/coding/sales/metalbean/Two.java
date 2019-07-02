@@ -1,8 +1,10 @@
 package com.coding.sales.metalbean;
 
+import com.coding.sales.contants.Contants;
 import com.coding.sales.discount.DiscountRoll;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 public class Two implements IPrice {
 
@@ -11,9 +13,16 @@ public class Two implements IPrice {
     private static final String unit = "盒";
     private static final BigDecimal price = new BigDecimal(1380.00);
     private static final DiscountRoll discountRoll = DiscountRoll.TEN_OFF;
+
     @Override
-    public BigDecimal getDiscountPrice(BigDecimal amount) {
-        return getTotalPrice(amount).multiply(new BigDecimal(0.1));
+    public BigDecimal getDiscountPrice(BigDecimal amount, List<String> discounts) {
+        if (discounts.contains(discountRoll.getMessage())) {
+            Contants.discounts.put(discountRoll.getMessage(), discountRoll.getMessage());
+            return getTotalPrice(amount).multiply(new BigDecimal(0.1));
+
+        } else {
+            return new BigDecimal(0);
+        }
     }
 
     @Override

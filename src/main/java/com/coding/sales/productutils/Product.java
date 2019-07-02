@@ -8,8 +8,7 @@ import com.coding.sales.output.DiscountItemRepresentation;
 import com.coding.sales.output.OrderItemRepresentation;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Product {
     private OrderCommand orderCommand;
@@ -42,8 +41,8 @@ public class Product {
             OrderItemCommand itemCommand = orderList.get(i);
             IPrice iPrice = Contants.metalTypeMap.get(itemCommand.getProduct());
 
-            if (iPrice.getDiscountPrice(itemCommand.getAmount()).compareTo(new BigDecimal(0)) > 0) {
-                DiscountItemRepresentation discountItemRepresentation = new DiscountItemRepresentation(itemCommand.getProduct(), iPrice.getProduceName(), iPrice.getDiscountPrice(itemCommand.getAmount()));
+            if (iPrice.getDiscountPrice(itemCommand.getAmount(), orderCommand.getDiscounts()).compareTo(new BigDecimal(0)) > 0) {
+                DiscountItemRepresentation discountItemRepresentation = new DiscountItemRepresentation(itemCommand.getProduct(), iPrice.getProduceName(), iPrice.getDiscountPrice(itemCommand.getAmount(), orderCommand.getDiscounts()));
                 discounts.add(discountItemRepresentation);
             }
         }
@@ -76,7 +75,7 @@ public class Product {
             OrderItemCommand itemCommand = orderList.get(i);
             IPrice iPrice = Contants.metalTypeMap.get(itemCommand.getProduct());
 
-            totleDiscount = totleDiscount.add(iPrice.getDiscountPrice(itemCommand.getAmount()));
+            totleDiscount = totleDiscount.add(iPrice.getDiscountPrice(itemCommand.getAmount(), orderCommand.getDiscounts()));
 
         }
         return totleDiscount;
@@ -88,6 +87,17 @@ public class Product {
      */
     public BigDecimal getDealPrice() {
        return getTotlePrice().subtract(getTotleDiscount());
+    }
+
+    public List<String> getDiscounts(Map<String, String> map) {
+        List<String> discounts = new ArrayList<String>();
+        Iterator<Map.Entry<String, String>> it = map.entrySet().iterator();
+
+        while (it.hasNext()) {
+            Map.Entry<String, String> entry = it.next();
+            discounts.add(entry.getValue());
+        }
+        return discounts;
     }
 
 }
