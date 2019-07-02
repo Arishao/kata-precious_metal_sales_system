@@ -3,8 +3,8 @@ package com.coding.sales.userben;
 import com.coding.sales.cardbean.CardInfo;
 
 public class UserBean {
-    public String name;
-    public CardInfo cardInfo;
+    private String name;
+    private CardInfo cardInfo;
 
     public String getName() {
         return name;
