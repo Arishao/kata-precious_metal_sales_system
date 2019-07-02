@@ -5,8 +5,6 @@ import java.math.BigDecimal;
 public class CardInfo {
 
     private CardTypes types;
-    private int minPoint;
-    private int maxPoint;
     private int currentPoint;
     private String cardId;
     private int newPoint;
@@ -17,22 +15,6 @@ public class CardInfo {
 
     public void setTypes(CardTypes types) {
         this.types = types;
-    }
-
-    public int getMinPoint() {
-        return minPoint;
-    }
-
-    public void setMinPoint(int minPoint) {
-        this.minPoint = minPoint;
-    }
-
-    public int getMaxPoint() {
-        return maxPoint;
-    }
-
-    public void setMaxPoint(int maxPoint) {
-        this.maxPoint = maxPoint;
     }
 
     public int getCurrentPoint() {

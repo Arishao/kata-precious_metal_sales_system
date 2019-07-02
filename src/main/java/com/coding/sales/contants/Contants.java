@@ -23,8 +23,6 @@ public class Contants {
         CardInfo cardInfo = new CardInfo();
         cardInfo.setCardId("6236609999");
         cardInfo.setCurrentPoint(9860);
-        cardInfo.setMaxPoint(10000);
-        cardInfo.setMinPoint(0);
         cardInfo.setTypes(CardTypes.NORMAL);
         userBean.setCardInfo(cardInfo);
 
@@ -33,8 +31,6 @@ public class Contants {
         CardInfo cardInfo1 = new CardInfo();
         cardInfo1.setCardId("6630009999");
         cardInfo1.setCurrentPoint(48860);
-        cardInfo1.setMaxPoint(50000);
-        cardInfo1.setMinPoint(10000);
         cardInfo1.setTypes(CardTypes.GOLDEN);
         userBean1.setCardInfo(cardInfo1);
 
@@ -43,8 +39,6 @@ public class Contants {
         CardInfo cardInfo2 = new CardInfo();
         cardInfo2.setCardId("8230009999");
         cardInfo2.setCurrentPoint(98860);
-        cardInfo2.setMaxPoint(100000);
-        cardInfo2.setMinPoint(50000);
         cardInfo2.setTypes(CardTypes.PLATINUM);
         userBean2.setCardInfo(cardInfo2);
 
@@ -53,7 +47,6 @@ public class Contants {
         CardInfo cardInfo3 = new CardInfo();
         cardInfo3.setCardId("9230009999");
         cardInfo3.setCurrentPoint(198860);
-        cardInfo3.setMinPoint(100000);
         cardInfo3.setTypes(CardTypes.DIAMOND);
         userBean3.setCardInfo(cardInfo3);
     }
