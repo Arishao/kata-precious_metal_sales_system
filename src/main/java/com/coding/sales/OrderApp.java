@@ -57,11 +57,10 @@ public class OrderApp {
 
         UserBean userBean = Contants.userBeanMap.get(command.getMemberId());
         CardInfo cardInfo = userBean.getCardInfo();
-        CardTypes newCardType = cardInfo.getNewTypes(product.getDealPrice());
 
         try {
             result = new OrderRepresentation(command.getOrderId(), new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").parse(command.getCreateTime()), command.getMemberId(), userBean.getName(),
-                    userBean.getCardInfo().getTypes().getMessage(), newCardType.getMessage(), cardInfo.getNewPoint(product.getDealPrice()),
+                    userBean.getCardInfo().getTypes().getMessage(), cardInfo.getNewTypes(product.getDealPrice()).getMessage(), cardInfo.getNewPoint(product.getDealPrice()),
                     cardInfo.getCurrentPoint(), product.getOrderItems(), product.getTotlePrice(), product.getDiscountItem(), product.getTotleDiscount(),
                     product.getDealPrice(), ConvertUtils.getPayments(command.getPayments()), command.getDiscounts());
         } catch (ParseException e) {
